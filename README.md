@@ -4,7 +4,7 @@ Uma coleção de skills práticas para o [Claude Code](https://docs.anthropic.co
 
 Cada skill é um conjunto autocontido de instruções que ensina o Claude a executar uma tarefa específica com profundidade e precisão.
 
-> **Sobre o idioma:** Sim, eu escolhi criar todas as skills em português... porque... porque as features são minhas e eu faço no idioma que eu quiser. Dito isso, se você quiser, basta pedir pro seu modelo favorito traduzir pra inglês que ele fará o job sem reclamar. Muak!
+> **Sobre o idioma:** Sim, eu escolhi criar todas as skills em português... porque... porque as features são minhas e eu faço no idioma que eu quiser. Dito isso, se precisar em inglês, basta pedir pro seu modelo favorito traduzir que ele fará o job sem reclamar. Muak!
 
 ## Skills
 
