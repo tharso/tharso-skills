@@ -10,6 +10,7 @@ Cada skill é um conjunto autocontido de instruções que ensina o Claude a exec
 
 | Skill | O que faz |
 |-------|-----------|
+| [**brainstorm**](./brainstorm/) | Facilitador de brainstorming com 36 técnicas criativas em 7 categorias. Da divergência à convergência |
 | [**design-dna**](./design-dna/) | Extrai o DNA visual de qualquer site — tipografia, cores, espaçamento, profundidade, motion — e salva como referência estruturada |
 | [**feature-forge**](./feature-forge/) | Parceiro de pensamento pra planejar features antes de criar issues no GitHub. Da ideia vaga à issue estruturada |
 | [**pdf-like-a-boss**](./pdf-like-a-boss/) | Pipeline profissional de geração de PDF via HTML+CSS com validação em cada etapa |
