@@ -4,13 +4,14 @@ Uma coleção de skills práticas para o [Claude Code](https://docs.anthropic.co
 
 Cada skill é um conjunto autocontido de instruções que ensina o Claude a executar uma tarefa específica com profundidade e precisão.
 
-> **Sobre o idioma:** Sim, eu escolhi criar todas as skills em português... porque... porque as features são minhas e eu faço no idioma que eu quiser. Dito isso, se precisar em inglês, basta pedir pro seu modelo favorito traduzir que ele fará o job sem reclamar. Muak!
+> **Sobre o idioma:** Sim, eu escolhi criar todas as skills em português... porque... porque as features são minhas e eu faço no idioma que eu bem entender. Dito isso, se precisar em inglês, basta pedir pro seu modelo favorito traduzir que ele fará o job sem reclamar. Muak!
 
 ## Skills
 
 | Skill | O que faz |
 |-------|-----------|
 | [**brainstorm**](./brainstorm/) | Facilitador de brainstorming com 36 técnicas criativas em 7 categorias. Da divergência à convergência |
+| [**decisã**](./decisa/) | Facilitadora de tomada de decisão. Não dá respostas — faz as perguntas que você está evitando |
 | [**design-dna**](./design-dna/) | Extrai o DNA visual de qualquer site — tipografia, cores, espaçamento, profundidade, motion — e salva como referência estruturada |
 | [**feature-forge**](./feature-forge/) | Parceiro de pensamento pra planejar features antes de criar issues no GitHub. Da ideia vaga à issue estruturada |
 | [**pdf-like-a-boss**](./pdf-like-a-boss/) | Pipeline profissional de geração de PDF via HTML+CSS com validação em cada etapa |
