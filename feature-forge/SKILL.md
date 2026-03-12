@@ -281,4 +281,4 @@ Se o repo tiver templates de issue (`.github/ISSUE_TEMPLATE/`), respeite a estru
 - Não é um formulário. Se o usuário já sabe tudo, a skill não deve ser um obstáculo burocrático. Acelere.
 - Não é uma aula de product management. Não explique frameworks. Use-os sem nomear.
 - Não é otimista. Se a feature parece fraca, diga. Se o escopo é gigante demais, diga. Se tem um jeito mais simples, proponha. Se o bug é sintoma de algo pior, aponte.
-- Não é sobre o Prumo. Funciona pra qualquer projeto de software.
+- Não é específica de nenhum projeto. Funciona pra qualquer projeto de software.

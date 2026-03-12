@@ -1,67 +1,69 @@
 # tharso-skills
 
-A collection of practical skills for [Claude Code](https://docs.anthropic.com/en/docs/claude-code) — the AI coding agent by Anthropic.
+Uma coleção de skills práticas para o [Claude Code](https://docs.anthropic.com/en/docs/claude-code) — o agente de IA da Anthropic.
 
-Each skill is a self-contained set of instructions that teaches Claude how to perform a specific task with depth and precision.
+Cada skill é um conjunto autocontido de instruções que ensina o Claude a executar uma tarefa específica com profundidade e precisão.
+
+> **Sobre o idioma:** Sim, eu escolhi criar todas as skills em português... porque... porque as features são minhas e eu faço no idioma que eu quiser. Dito isso, se você quiser, basta pedir pro seu modelo favorito traduzir pra inglês que ele fará o job sem reclamar. Muak!
 
 ## Skills
 
-| Skill | What it does | Language |
-|-------|-------------|----------|
-| [**design-dna**](./design-dna/) | Extracts the visual DNA from any website — typography, colors, spacing, depth, motion — and saves it as a structured design reference | EN |
-| [**feature-forge**](./feature-forge/) | Thinking partner for planning features before creating GitHub issues. Goes from vague idea to structured issue | PT-BR |
-| [**pdf-like-a-boss**](./pdf-like-a-boss/) | Professional PDF generation pipeline via HTML+CSS with validation at every step | EN |
-| [**smry-reader**](./smry-reader/) | Clean web page reader via smry.ai proxy. Strips ads, popups, and visual noise | PT-BR |
-| [**youtube-extractor**](./youtube-extractor/) | Extracts metadata and full transcript from YouTube videos into structured Markdown | PT-BR |
+| Skill | O que faz |
+|-------|-----------|
+| [**design-dna**](./design-dna/) | Extrai o DNA visual de qualquer site — tipografia, cores, espaçamento, profundidade, motion — e salva como referência estruturada |
+| [**feature-forge**](./feature-forge/) | Parceiro de pensamento pra planejar features antes de criar issues no GitHub. Da ideia vaga à issue estruturada |
+| [**pdf-like-a-boss**](./pdf-like-a-boss/) | Pipeline profissional de geração de PDF via HTML+CSS com validação em cada etapa |
+| [**smry-reader**](./smry-reader/) | Leitor limpo de páginas web via proxy smry.ai. Remove anúncios, popups e ruído visual |
+| [**youtube-extractor**](./youtube-extractor/) | Extrai metadados e transcrição completa de vídeos do YouTube em Markdown estruturado |
 
-## Installation
+## Instalação
 
-### Install a single skill
+### Instalar uma skill
 
 ```bash
-claude skills add /path/to/tharso-skills/design-dna
+claude skills add /caminho/para/tharso-skills/design-dna
 ```
 
-### Install from GitHub (clone first)
+### Instalar via GitHub (clone primeiro)
 
 ```bash
 git clone https://github.com/tharso/tharso-skills.git
 claude skills add ./tharso-skills/design-dna
 ```
 
-### Manual installation
+### Instalação manual
 
-Copy the skill folder into your project's `.claude/skills/` directory:
+Copie a pasta da skill para o diretório `.claude/skills/` do seu projeto:
 
 ```bash
-cp -r design-dna /your-project/.claude/skills/
+cp -r design-dna /seu-projeto/.claude/skills/
 ```
 
-## Skill format
+## Formato das skills
 
-Each skill follows the [Claude Code skills spec](https://docs.anthropic.com/en/docs/claude-code/skills):
+Cada skill segue a [spec de skills do Claude Code](https://docs.anthropic.com/en/docs/claude-code/skills):
 
 ```
-skill-name/
-├── SKILL.md          # Instructions + YAML frontmatter (required)
-├── references/       # Supporting docs, examples (optional)
-└── scripts/          # Helper scripts (optional)
+nome-da-skill/
+├── SKILL.md          # Instruções + frontmatter YAML (obrigatório)
+├── references/       # Docs de apoio, exemplos (opcional)
+└── scripts/          # Scripts auxiliares (opcional)
 ```
 
-The `SKILL.md` frontmatter includes:
+O frontmatter do `SKILL.md` inclui:
 
 ```yaml
 ---
-name: skill-name
-description: What it does and when to trigger it
+name: nome-da-skill
+description: O que faz e quando deve ser ativada
 version: 1.0.0
 ---
 ```
 
-## Contributing
+## Contribuindo
 
-See [CONTRIBUTING.md](./CONTRIBUTING.md) for guidelines on adding or improving skills.
+Veja [CONTRIBUTING.md](./CONTRIBUTING.md) para guidelines de contribuição.
 
-## License
+## Licença
 
 [MIT](./LICENSE)
