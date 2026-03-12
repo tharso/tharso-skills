@@ -11,6 +11,7 @@ Cada skill é um conjunto autocontido de instruções que ensina o Claude a exec
 | Skill | O que faz |
 |-------|-----------|
 | [**brainstorm**](./brainstorm/) | Facilitador de brainstorming com 36 técnicas criativas em 7 categorias. Da divergência à convergência |
+| [**color-palette**](./color-palette/) | Gera paletas de cores profissionais em OKLCH. Exploração visual com boards proporcionais, temas light/dark, validação APCA + WCAG, export multi-formato |
 | [**decisã**](./decisa/) | Facilitadora de tomada de decisão. Não dá respostas — faz as perguntas que você está evitando |
 | [**design-dna**](./design-dna/) | Extrai o DNA visual de qualquer site — tipografia, cores, espaçamento, profundidade, motion — e salva como referência estruturada |
 | [**feature-forge**](./feature-forge/) | Parceiro de pensamento pra planejar features antes de criar issues no GitHub. Da ideia vaga à issue estruturada |
