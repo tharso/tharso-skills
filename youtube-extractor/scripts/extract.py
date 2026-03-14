@@ -41,7 +41,7 @@ def extract_metadata(url: str) -> dict:
         'quiet': True,
         'no_warnings': True,
         'skip_download': True,
-        'no_check_certificates': True,
+        'no_check_certificates': False,
     }
 
     with yt_dlp.YoutubeDL(ydl_opts) as ydl:
